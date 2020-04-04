@@ -211,6 +211,10 @@ span {
   width: 750px;
 }
 
+.section-2-text a {
+  color: rgb(255, 234, 46);
+}
+
 /* Breaker */
 .break {
   padding: 50px;
@@ -371,9 +375,28 @@ textarea:focus {
   color: #fff;
   height: 20px;
   background-color: rgb(9, 134, 30);
-  padding: 20px;
+  padding: 15px;
   border-radius: 50px;
   /* transform: height 0.5s; */
   /* -ms-transform: scale(1.5); 
   -webkit-transform: scale(1.5);  */
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  .section-1 .nav-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 0;
+  }
+
+  /* .section-1 .nav-container {
+    padding-bottom: 20px;
+  } */
+
+  .section-2 {
+    margin-top: 20px;
+  }
 }
